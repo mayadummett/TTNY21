@@ -10,6 +10,25 @@
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+
+ .techTogetherNewYorkBack {
+  position: absolute;
+  width: 1649px;
+  height: 921px;
+  left: -113px;
+  top: -52px;
+  
+  background: #ABE2F1;
+  opacity: 0.5;
+ }
+
+
+
+
+
+
+
+
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
