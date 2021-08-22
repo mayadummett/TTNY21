@@ -11385,14 +11385,6 @@ header.masthead {
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
-  position: absolute;
-  width: 1649px;
-  height: 921px;
-  left: -113px;
-  top: -52px;
-
-  background: #ABE2F1;
-  opacity: 0.5;
 }
 header.masthead h1, header.masthead .h1 {
   font-size: 2.25rem;
