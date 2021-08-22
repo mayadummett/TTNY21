@@ -1398,7 +1398,6 @@ progress {
   }
 
   .col-lg-8 {
-    color: #fff;
     flex: 0 0 auto;
     width: 66.66666667%;
   }
@@ -3028,8 +3027,7 @@ textarea.form-control-lg {
 .btn-primary {
   color: #fff;
   background-color: #f4623a;
-  border-color: #f4623a; 
-
+  border-color: #f4623a;
 }
 .btn-primary:hover {
   color: #fff;
@@ -7751,9 +7749,8 @@ textarea.form-control-lg {
 }
 
 .text-white {
-  /* --bs-text-opacity: 1;
-  color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important;  */
-  color: #fff;
+  --bs-text-opacity: 1;
+  color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important;
 }
 
 .text-body {
