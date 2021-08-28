@@ -7749,11 +7749,8 @@ textarea.form-control-lg {
 }
 
 .text-white {
-  /* --bs-text-opacity: 1;
-  color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important; */
-  color: white;
-  font-size: 100%;
-
+  --bs-text-opacity: 1;
+  color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important;
 }
 
 .text-body {
