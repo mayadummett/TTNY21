@@ -11287,6 +11287,7 @@ body {
 
 .challenges-section {
   padding: 0 0;
+  background-color: #181E43
 }
 
 .challenge-arrows {
@@ -11297,9 +11298,23 @@ body {
   height: 400px;
 }
 
+.involved-section {
+  padding: 0 0;
+  background-color: #E4F7FC
+}
+
+.involved-btn {
+  width: 200px;
+}
+
+.involved-btn:nth-child(2) {
+  background-color: #99A4F5;
+}
+
 .page-section {
   padding: 8rem 0;
 }
+
 
 .text-white-75 {
   color: rgba(255, 255, 255, 0.75) !important;
