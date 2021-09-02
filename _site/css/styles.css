@@ -11285,6 +11285,18 @@ body {
   height: 100%;
 }
 
+.challenges-section {
+  padding: 0 0;
+}
+
+.challenge-arrows {
+  height: 50px
+}
+
+.carousel-item {
+  height: 400px;
+}
+
 .page-section {
   padding: 8rem 0;
 }
@@ -11442,4 +11454,28 @@ header.masthead h1, header.masthead .h1 {
 }
 #portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption, #portfolio .container-sm .portfolio-box:hover .portfolio-box-caption, #portfolio .container-md .portfolio-box:hover .portfolio-box-caption, #portfolio .container-lg .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xl .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xxl .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
+}
+
+
+
+
+
+/***** SCHEDULE *****/ /*TO-DO*/
+.schedulebg{
+  background: #F4EFE5;
+}
+.scheduleBoard {
+  background: white;
+  border-radius: 20px;
+  border: 10px solid #51534f;
+  opacity: 0.85;
+  padding: 20px;
+  width: 100%;
+  height: 150px;
+  margin: auto;
+}
+
+/***** SPONSORS *****/
+.sponsorsbg{
+  background: #ABE2F1;
 }
