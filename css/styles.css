@@ -11287,7 +11287,7 @@ body {
 
 .challenges-section {
   padding: 0 0;
-  background-color: #181E43
+  background-color: #181E43;
 }
 
 .challenge-arrows {
@@ -11300,15 +11300,59 @@ body {
 
 .involved-section {
   padding: 0 0;
-  background-color: #E4F7FC
+  background-color: #E4F7FC;
+}
+
+.button-group {
+  position: relative;
+  bottom: -50px;
 }
 
 .involved-btn {
   width: 200px;
+  color: white
 }
 
-.involved-btn:nth-child(2) {
+.involved-btn.b {
   background-color: #99A4F5;
+}
+
+.involved-btn.b:hover {
+  background-color: #7382f3;
+}
+
+.involved-btn.c {
+  background-color: #334195;
+}
+
+.involved-btn.c:hover {
+  background-color: #1b2870;
+}
+
+.involved-btn.d {
+  background-color: #ABE2F1;
+}
+
+.involved-btn.d:hover {
+  background-color: #5ec0db;
+}
+
+.involved-btn.e {
+  background-color: #64B6CC;
+}
+
+.involved-btn.e:hover {
+  background-color: #52a4bb;
+}
+
+.trees-section {
+  position: relative;
+  bottom: 100px;
+}
+
+.trees {
+  position: relative;
+  bottom: -100px;
 }
 
 .page-section {
