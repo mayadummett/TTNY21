@@ -243,10 +243,17 @@
 
     <!-- Schedule -->
     <section class="page-section schedulebg text-black" id="schedule">
-        <div class="container px-4 px-lg-5 text-center">
+        <div class='rect1'></div>
+        <div class='rect2'></div>
+        <div class="container px-4 px-lg-5 text-center">    
             <h2 class="mb-4">Schedule</h2>
-            <div class="scheduleBoard">
-                <div id="daynum"></div>
+            <div id="scheduleBoard">
+                <div class="sched-nav">
+                    <button class="btn sched-btn" style="border-radius: 4px 0px 0px 4px;" id="1">Friday</button>
+                    <button class="btn sched-btn" style="border-radius: 0px;" id="2">Saturday</button>
+                    <button class="btn sched-btn" style="border-radius: 0px 4px 4px 0px;" id="3">Sunday</button>
+                </div>
+                <div id="day">Click on a day</div>
             </div>
         </div>
     </section>
@@ -363,6 +370,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.js"></script>
     <!-- Core theme JS-->
     <script src="js/scripts.js"></script>
+    <script src="js/schedule.js"></script>
+
     <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
     <!-- * *                               SB Forms JS                               * *-->
     <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->

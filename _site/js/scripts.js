@@ -57,24 +57,3 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
 });
-
-function readJSON() {
-    /* 
-        1. read JSON file
-        2. ouput data into HTML div
-        3. try to style the div 
-
-       DAY 1
-       ------------
-       (Category Initial) Title     Time
-                        Description 
-    */
-
-    // create 3 tables, one for each day
-    for (let i = 1; i <= 3; i++) {
-      let json_file = `json/schedule-day${i}.json`; // json file with event data for specified day
-      fetch(json_file).then(results => results.json())
-      let day = `day${i}`;
-      document.getElementById('daynum').innerHTML=day
-    }
-  };
