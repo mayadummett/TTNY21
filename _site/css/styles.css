@@ -7764,11 +7764,6 @@ textarea.form-control-lg {
 
 .text-muted {
   --bs-text-opacity: 1;
-  position: absolute;
-  width: 241px;
-  height: 84px;
-  left: 1011px;
-  top: 1660px;
 
   font-family: Roboto;
   font-style: normal;
