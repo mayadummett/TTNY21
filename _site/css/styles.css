@@ -11285,6 +11285,18 @@ body {
   height: 100%;
 }
 
+.challenges-section {
+  padding: 0 0;
+}
+
+.challenge-arrows {
+  height: 50px
+}
+
+.carousel-item {
+  height: 400px;
+}
+
 .page-section {
   padding: 8rem 0;
 }
