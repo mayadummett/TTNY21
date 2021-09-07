@@ -260,13 +260,23 @@
     </div>
 
     <!-- Schedule -->
-    <section class="page-section bg-dark text-white" id="schedule">
-        <div class="container px-4 px-lg-5 text-center">
+    <section class="page-section schedulebg text-black" id="schedule">
+        <div class='rect1'></div>
+        <div class='rect2'></div>
+        <div class="container px-4 px-lg-5 text-center">    
             <h2 class="mb-4">Schedule</h2>
+            <div id="scheduleBoard">
+                <div class="sched-nav">
+                    <button class="btn sched-btn" style="border-radius: 4px 0px 0px 4px;" id="1">Friday</button>
+                    <button class="btn sched-btn" style="border-radius: 0px;" id="2">Saturday</button>
+                    <button class="btn sched-btn" style="border-radius: 0px 4px 4px 0px;" id="3">Sunday</button>
+                </div>
+                <div id="day">Click on a day</div>
+            </div>
         </div>
     </section>
     <!-- Sponsors -->
-    <section class="page-section bg-dark text-white" id="sponsors">
+    <section class="page-section sponsorsbg text-black" id="sponsors">
         <div class="container px-4 px-lg-5 text-center">
             <h2 class="mb-4">Sponsors</h2>
             <img class="img-fluid" src="assets/img/NewYork_Profile.png" style="margin: 10px" width="200" alt="..." />
@@ -378,6 +388,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.js"></script>
     <!-- Core theme JS-->
     <script src="js/scripts.js"></script>
+    <script src="js/schedule.js"></script>
+
     <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
     <!-- * *                               SB Forms JS                               * *-->
     <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
