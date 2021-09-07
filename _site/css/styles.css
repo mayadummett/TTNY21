@@ -7802,6 +7802,10 @@ textarea.form-control-lg {
   /* background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important; */
   background-color: #FFFFFF;
 }
+.bg-mission {
+  --bs-bg-opacity: 1;
+  background-color: #ABE2F1;
+}
 
 .bg-secondary {
   --bs-bg-opacity: 1;
