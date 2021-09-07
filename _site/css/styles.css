@@ -7754,7 +7754,7 @@ textarea.form-control-lg {
 }
 .text-white-title {
   --bs-text-opacity: 1;
-  
+
   color: #FFFFFF !important;
 }
 .text-body {
@@ -7764,7 +7764,19 @@ textarea.form-control-lg {
 
 .text-muted {
   --bs-text-opacity: 1;
-  color: #6c757d !important;
+  position: absolute;
+  width: 241px;
+  height: 84px;
+  left: 1011px;
+  top: 1660px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: #000000 !important;
 }
 
 .text-black-50 {
