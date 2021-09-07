@@ -7750,7 +7750,7 @@ textarea.form-control-lg {
 
 .text-white {
   --bs-text-opacity: 1;
-  color: #181E43;
+  color: #181E43 !important;
 }
 
 .text-body {
