@@ -33,7 +33,7 @@
   --bs-gray-700: #495057;
   --bs-gray-800: #343a40;
   --bs-gray-900: #212529;
-  --bs-primary: #FFFFFF;
+  --bs-primary: #f4623a;
   --bs-secondary: #6c757d;
   --bs-success: #198754;
   --bs-info: #0dcaf0;
@@ -3026,32 +3026,32 @@ textarea.form-control-lg {
 
 .btn-primary {
   color: #fff;
-  background-color: #808EF4;
-  border-color: #808EF4;
+  background-color: #f4623a;
+  border-color: #f4623a;
 }
 .btn-primary:hover {
   color: #fff;
-  background-color: #808EF4;
-  border-color: #808EF4;
+  background-color: #cf5331;
+  border-color: #c34e2e;
 }
 .btn-check:focus + .btn-primary, .btn-primary:focus {
   color: #fff;
-  background-color: #808EF4;
-  border-color:#808EF4;
+  background-color: #cf5331;
+  border-color: #c34e2e;
   box-shadow: 0 0 0 0.25rem rgba(246, 122, 88, 0.5);
 }
 .btn-check:checked + .btn-primary, .btn-check:active + .btn-primary, .btn-primary:active, .btn-primary.active, .show > .btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #808EF4;
-  border-color:#808EF4;
+  background-color: #c34e2e;
+  border-color: #b74a2c;
 }
 .btn-check:checked + .btn-primary:focus, .btn-check:active + .btn-primary:focus, .btn-primary:active:focus, .btn-primary.active:focus, .show > .btn-primary.dropdown-toggle:focus {
   box-shadow: 0 0 0 0.25rem rgba(246, 122, 88, 0.5);
 }
 .btn-primary:disabled, .btn-primary.disabled {
   color: #fff;
-  background-color: #808EF4;
-  border-color: #808EF4;
+  background-color: #f4623a;
+  border-color: #f4623a;
 }
 
 .btn-secondary {
@@ -7750,13 +7750,9 @@ textarea.form-control-lg {
 
 .text-white {
   --bs-text-opacity: 1;
-  color: #181E43 !important;
+  color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important;
 }
-.text-white-title {
-  --bs-text-opacity: 1;
 
-  color: #FFFFFF !important;
-}
 .text-body {
   --bs-text-opacity: 1;
   color: rgba(var(--bs-body-rgb), var(--bs-text-opacity)) !important;
@@ -7764,14 +7760,7 @@ textarea.form-control-lg {
 
 .text-muted {
   --bs-text-opacity: 1;
-
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 20px;
-  line-height: 28px;
-  text-align: center;
-  color: #000000 !important;
+  color: #6c757d !important;
 }
 
 .text-black-50 {
@@ -7807,12 +7796,7 @@ textarea.form-control-lg {
 
 .bg-primary {
   --bs-bg-opacity: 1;
-  /* background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important; */
-  background-color: #FFFFFF;
-}
-.bg-mission {
-  --bs-bg-opacity: 1;
-  background-color: #ABE2F1;
+  background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
 }
 
 .bg-secondary {
@@ -11373,12 +11357,11 @@ body {
 
 .page-section {
   padding: 8rem 0;
-  color: #FFFFFF;
 }
 
 
 .text-white-75 {
-  color: #000000;
+  color: rgba(255, 255, 255, 0.75) !important;
 }
 
 .btn-xl {
@@ -11394,8 +11377,7 @@ hr.divider {
   height: 0.2rem;
   max-width: 3.25rem;
   margin: 1.5rem auto;
-  background-color: #FFFFFF;
-  /* background-color: #f4623a; */
+  background-color: #f4623a;
   opacity: 1;
 }
 
@@ -11465,11 +11447,10 @@ hr.divider-light {
   }
 }
 
-/* image is not loading - maya */
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
-  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url(".assets/img/techTogetherNewYorkBackground.png");
+  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/img/bg-masthead.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
