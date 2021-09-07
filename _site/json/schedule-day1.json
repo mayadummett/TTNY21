@@ -1,0 +1,61 @@
+[
+	{
+
+		"Time": "5:00 PM",
+		"Category": "Universal",
+		"Title": "Hackathon Kickoff!",
+		"Host": "TTNY team",
+		"Description": ""
+	},
+	{
+		
+		"Time": "6:00 PM",
+		"Category": "Universal",
+		"Title": "Opening Ceremony",
+		"Host": "TTNY team",
+		"Description": ""
+	},
+	{
+		
+		"Time": "7:00 PM",
+		"Category": "Universal",
+		"Title": "Team Formation Activities",
+		"Host": "TTNY team",
+		"Description": "Looking for a team? Want to make new friends? Do not miss this opportunity to socialize with fellow TTNY hackers, bond over your shared love of coding and other hobbies, and form your hackathon dream team!"
+	},
+	{
+		
+		"Time": "8:15 PM",
+		"Category": "Workshop",
+		"Level": "1",
+		"Title": "Introduction to Git",
+		"Host": "Yomaira Escano",
+		"Description": "This workshop focusues on the importance of using tools like GitHub for proper version control, especially when working with a team.  There will also be a demo of how to use Git and GitHub."
+	},
+	{
+		
+		"Time": "8:15 PM",
+		"Category": "Activity",
+		"Title": "Calligraphy",
+		"Host": "Althea Bata",
+		"Description": "This fun activity allows attendees to learn the fundamentals of calligraphy applicable to any writing utensil that can vary in weight. You will then have the chance to practice a few letters on a worksheet, and use what you know to create your name or a short motivational quote."
+	},
+	{
+		
+		"Time": "9:00 PM",
+		"Category": "Workshop",
+		"Level": "1",
+		"Title": "The Importance of Building Connections",
+		"Host": "Ellie Mortenson (Program Lead at SAP)",
+		"Description": "How do relationships impact our lives? What does it look like to build trust with team members? Is communication really that important? In this session, we’ll dive into all these questions and more. You’ll walk away equipped to make a connection with anyone, build trust and rapport with teams, and demonstrate clear communication skills. This will all be done through storytelling, breakout discussions, and writing reflections."
+	},
+	{
+		
+		"Time": "9:00 PM",
+		"Category": "Workshop",
+		"Level": "1",
+		"Title": "Introduction to Modeling in Python <br> Presented by MASSMUTUAL",
+		"Host": "Emily Dzwil & Quentin Dupupet",
+		"Description": "Models can help hackers make sense of the vast amount of data they are given. This talk introduces modeling using machine learning algorithms, providing examples in Python."
+	}
+]
