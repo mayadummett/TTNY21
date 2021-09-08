@@ -11466,7 +11466,7 @@ header.masthead h1, header.masthead .h1 {
 }
 #scheduleBoard {
   background: white;
-  border-radius: 20px;
+  border-radius: 15px;
   border: 10px solid #51534f;
   /* opacity: 0.85;
   padding: 20px;
@@ -11495,7 +11495,7 @@ header.masthead h1, header.masthead .h1 {
   position: relative;
   margin-top: -.3em;
   padding: 1em;
-  width: 101%;
+  width: 102%;
   left: -.2em;
 }
 .sched-btn{
@@ -11545,4 +11545,16 @@ header.masthead h1, header.masthead .h1 {
 /***** SPONSORS *****/
 .sponsorsbg{
   background: #ABE2F1;
+}
+.logo-big{
+  margin: 10px;
+  width: 200px;
+}
+.logo-med{
+  margin: 10px;
+  width: 150px;
+}
+.logo-small{
+  margin: 10px;
+  width: 100px;
 }
