@@ -66,14 +66,14 @@ document.getElementById('3').onclick = () => {fillData(day3)}
 function fillData(data){
     document.getElementById('day').innerHTML = `
         ${data.map(sched_template).join('')}
-        <h5 style="font-size: 0.7rem;">Check back soon for updates.</h5>
+        <h5 style="font-size: 0.9rem;">Check back soon for updates.</h5>
     `
 }
 
 function sched_template(day_data){
     return `
     <div class="event">
-        <span id="category" class="circle"> ${day_data.Category.charAt(0)} </span>
+        <span id="category" class="circle fs-3"> ${day_data.Category.charAt(0)} </span>
 
         <h4 class="fs-4 text-primary">
             <span style="font-weight: bold;"> ${day_data.Title} </span>

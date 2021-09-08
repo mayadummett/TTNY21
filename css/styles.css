@@ -11524,8 +11524,9 @@ header.masthead h1, header.masthead .h1 {
   background: #F4EFE5;
 }
 #scheduleBoard {
+  font-family: Arial, Helvetica, sans-serif;
   background: white;
-  border-radius: 20px;
+  border-radius: 15px;
   border: 10px solid #51534f;
   /* opacity: 0.85;
   padding: 20px;
@@ -11557,10 +11558,10 @@ header.masthead h1, header.masthead .h1 {
   width: 101%;
   left: -.2em;
 }
-.sched-btn{
-  border-color: rgba(255,255,255,0.5);
+.sched-btn{ 
   border-width: medium;
-  background-color: rgba(255,255,255,0.25);
+  /* border-color: rgba(68,70,67, 0.5); */
+  /* background-color: rgba(56,57,54, 0.25); */
   margin: -3px;
   color: var(--bs-body-bg);
 }
@@ -11580,12 +11581,12 @@ header.masthead h1, header.masthead .h1 {
   line-height: 4rem;
   border-radius: 50%;
   font-size: 100%;
+  font-weight: bold;
   color: #fff;
   text-align: center;
   background-color: #45b8cf;
 }
 .event {
-  font-family: Arial, Helvetica, sans-serif;
   max-width: 100%;
   padding: 20px;
   margin: 30px auto;
@@ -11604,4 +11605,16 @@ header.masthead h1, header.masthead .h1 {
 /***** SPONSORS *****/
 .sponsorsbg{
   background: #ABE2F1;
+}
+.logo-big{
+  margin: 10px;
+  width: 200px;
+}
+.logo-med{
+  margin: 10px;
+  width: 150px;
+}
+.logo-small{
+  margin: 10px;
+  width: 100px;
 }
