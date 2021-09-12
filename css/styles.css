@@ -11359,6 +11359,9 @@ body {
   padding: 8rem 0;
 }
 
+.faq-text {
+  font-size: 0.85rem;
+}
 
 .text-white-75 {
   color: rgba(255, 255, 255, 0.75) !important;
