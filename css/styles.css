@@ -11537,11 +11537,11 @@ header.masthead h1, header.masthead .h1 {
   /* -webkit-box-shadow:inset 0px 11px 0px 10px rgba(34,36,37,1);
   -moz-box-shadow:inset 0px 11px 0px 10px rgba(34,36,37,1);
   box-shadow:inset 0px 11px 0px 10px rgba(34,36,37,1); */
-  top: -30px;
+  /* top: -30px; */
   position: relative;
   /* opacity: 0.85; */
   /* padding: 20px; */
-  width: 90%;
+  width: 80%;
   margin: auto; 
   /* height: calc(100vh - 16px); */
 }
@@ -11605,6 +11605,22 @@ header.masthead h1, header.masthead .h1 {
   line-height: 1; 
   position: relative; 
   top: 0.5em;
+}
+.rect1 {
+  background: rgba(34,36,37,1);
+  width: 3vw;
+  height: 12em;
+  left: 20vw;
+  margin-top: -128px;
+  position: absolute;
+}
+.rect2 {
+  background: rgba(34,36,37,1);
+  width: 3vw;
+  height: 12em;
+  right: 20vw;
+  margin-top: -128px;
+  position: absolute;
 }
 /***** SPONSORS *****/
 .sponsorsbg{
