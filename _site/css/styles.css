@@ -279,6 +279,21 @@ a > code {
   color: inherit;
 }
 
+imd{
+position: absolute;
+width: 984px;
+height: 144px;
+left: 228px;
+top: 1022px;
+
+font-family: Barlow;
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 43px;
+text-align: center;
+}
+
 kbd {
   padding: 0.2rem 0.4rem;
   font-size: 0.875em;
@@ -11609,6 +11624,7 @@ header.masthead h1, header.masthead .h1 {
 .sponsorsbg{
   background: #ABE2F1;
 }
+<<<<<<< HEAD
 .logo-big{
   margin: 10px;
   width: 200px;
@@ -11621,3 +11637,5 @@ header.masthead h1, header.masthead .h1 {
   margin: 10px;
   width: 100px;
 }
+=======
+>>>>>>> a29fc72a01f8ad71062e075cf46b8176896a4567
