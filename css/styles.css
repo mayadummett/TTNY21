@@ -7758,6 +7758,13 @@ textarea.form-control-lg {
   /* color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important; */
 }
 
+.text-white-mission {
+  --bs-text-opacity: 1;
+  color: #FFF !important;
+  font-size:48px;
+  /* color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important; */
+}
+
 
 .text-black-title {
   --bs-text-opacity: 1;
@@ -7779,6 +7786,8 @@ textarea.form-control-lg {
 .text-muted {
   --bs-text-opacity: 1;
   color: #000000 !important;
+  text-align: center;
+  font-size: 20px;
 }
 
 .text-black-50 {
