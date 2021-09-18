@@ -33,7 +33,7 @@
   --bs-gray-700: #495057;
   --bs-gray-800: #343a40;
   --bs-gray-900: #212529;
-  --bs-primary: #f4623a;
+  --bs-primary: #f4623a; 
   --bs-secondary: #6c757d;
   --bs-success: #198754;
   --bs-info: #0dcaf0;
@@ -61,6 +61,7 @@
   --bs-body-line-height: 1.5;
   --bs-body-color: #212529;
   --bs-body-bg: #fff;
+  --bs-mission: #ABE2F1;
 }
 
 *,
@@ -7748,9 +7749,22 @@ textarea.form-control-lg {
   color: rgba(var(--bs-black-rgb), var(--bs-text-opacity)) !important;
 }
 
-.text-white {
+.text-white-title {
   --bs-text-opacity: 1;
-  color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important;
+  color: #FFF !important;
+  /* color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important; */
+}
+
+.text-black-title {
+  --bs-text-opacity: 1;
+  color: #181E43 !important;
+  font-size: 30px;
+}
+
+.text-black-paragraph {
+  --bs-text-opacity: 1;
+  color: ##000000 !important;
+  font-size: 20px;
 }
 
 .text-body {
@@ -11357,6 +11371,7 @@ body {
 
 .page-section {
   padding: 8rem 0;
+  background-color: #ABE2F1;
 }
 
 .faq-text {
