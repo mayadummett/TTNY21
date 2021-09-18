@@ -279,21 +279,6 @@ a > code {
   color: inherit;
 }
 
-imd{
-position: absolute;
-width: 984px;
-height: 144px;
-left: 228px;
-top: 1022px;
-
-font-family: Barlow;
-font-style: normal;
-font-weight: 600;
-font-size: 36px;
-line-height: 43px;
-text-align: center;
-}
-
 kbd {
   padding: 0.2rem 0.4rem;
   font-size: 0.875em;
@@ -3041,32 +3026,32 @@ textarea.form-control-lg {
 
 .btn-primary {
   color: #fff;
-  background-color: #f4623a;
-  border-color: #f4623a;
+  background-color: #808EF4;
+  border-color: #808EF4;
 }
 .btn-primary:hover {
   color: #fff;
-  background-color: #cf5331;
-  border-color: #c34e2e;
+  background-color: #808EF4;
+  border-color: #808EF4;
 }
 .btn-check:focus + .btn-primary, .btn-primary:focus {
   color: #fff;
-  background-color: #cf5331;
-  border-color: #c34e2e;
+  background-color: #808EF4;
+  border-color: #808EF4;
   box-shadow: 0 0 0 0.25rem rgba(246, 122, 88, 0.5);
 }
 .btn-check:checked + .btn-primary, .btn-check:active + .btn-primary, .btn-primary:active, .btn-primary.active, .show > .btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #c34e2e;
-  border-color: #b74a2c;
+  background-color: #808EF4;
+  border-color: #808EF4c;
 }
 .btn-check:checked + .btn-primary:focus, .btn-check:active + .btn-primary:focus, .btn-primary:active:focus, .btn-primary.active:focus, .show > .btn-primary.dropdown-toggle:focus {
   box-shadow: 0 0 0 0.25rem rgba(246, 122, 88, 0.5);
 }
 .btn-primary:disabled, .btn-primary.disabled {
   color: #fff;
-  background-color: #f4623a;
-  border-color: #f4623a;
+  background-color: #808EF4;
+  border-color: #808EF4;
 }
 
 .btn-secondary {
@@ -7763,9 +7748,10 @@ textarea.form-control-lg {
   color: rgba(var(--bs-black-rgb), var(--bs-text-opacity)) !important;
 }
 
-.text-white {
+.text-white-title {
   --bs-text-opacity: 1;
-  color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important;
+  color: rgba(255,255,255) !important;
+  /* color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important; */
 }
 
 .text-body {
@@ -11538,43 +11524,44 @@ header.masthead h1, header.masthead .h1 {
 
 
 /***** SCHEDULE *****/
-.schedulebg{
-  background: #F4EFE5;
+.platform {
+  /* padding-top: inherit; */
+  position: relative;
+  bottom: -128px;
+  /* opacity: .75; */
 }
-#scheduleBoard {
+#scheduleBoard {  
   font-family: Arial, Helvetica, sans-serif;
   background: white;
   border-radius: 15px;
-  border: 10px solid #51534f;
-  /* opacity: 0.85;
-  padding: 20px;
-  width: 100%;
-  margin: auto; */
-}
-.rect1 {
-  background: #51534f;
-  width: 3vw;
-  height: 12em;
-  left: 20vw;
-  margin-top: -128px;
-  position: absolute;
-}
-.rect2 {
-  background: #51534f;
-  width: 3vw;
-  height: 12em;
-  right: 20vw;
-  margin-top: -128px;
-  position: absolute;
-}
-.sched-nav {
-  background: #51534f;
-  border-radius: 5px;
+  border: 10px solid rgba(34,36,37,1);
+  /* -webkit-box-shadow:inset 0px 11px 0px 10px rgba(34,36,37,1);
+  -moz-box-shadow:inset 0px 11px 0px 10px rgba(34,36,37,1);
+  box-shadow:inset 0px 11px 0px 10px rgba(34,36,37,1); */
+  /* top: -30px; */
   position: relative;
-  margin-top: -.3em;
-  padding: 1em;
-  width: 101%;
-  left: -.2em;
+  /* opacity: 0.85; */
+  /* padding: 20px; */
+  width: 80%;
+  margin: auto; 
+  /* height: calc(100vh - 16px); */
+}
+.schedulebg {
+  position: relative;
+  height: 200px;
+  width: 65%;
+  /* min-height: 300px; */
+}
+
+.sched-nav {
+  background: rgba(34,36,37,1);
+  margin: -2px;
+  padding: 10px;
+  /* position: relative; */
+  /* top: 7.3em; */
+  /*
+  width: 100%;
+  left: 0em; */
 }
 .sched-btn{ 
   border-width: medium;
@@ -11620,11 +11607,26 @@ header.masthead h1, header.masthead .h1 {
   position: relative; 
   top: 0.5em;
 }
+.rect1 {
+  background: rgba(34,36,37,1);
+  width: 3vw;
+  height: 12em;
+  left: 20vw;
+  margin-top: -128px;
+  position: absolute;
+}
+.rect2 {
+  background: rgba(34,36,37,1);
+  width: 3vw;
+  height: 12em;
+  right: 20vw;
+  margin-top: -128px;
+  position: absolute;
+}
 /***** SPONSORS *****/
 .sponsorsbg{
   background: #ABE2F1;
 }
-<<<<<<< HEAD
 .logo-big{
   margin: 10px;
   width: 200px;
@@ -11637,5 +11639,3 @@ header.masthead h1, header.masthead .h1 {
   margin: 10px;
   width: 100px;
 }
-=======
->>>>>>> a29fc72a01f8ad71062e075cf46b8176896a4567
