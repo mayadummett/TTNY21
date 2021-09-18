@@ -47,3 +47,35 @@ window.onclick = function(event) {
     MicrosoftModal.style.display = "none";
   }
 }
+
+// Boston University
+var closeBU = document.getElementsByClassName("closeBU")[0];
+var BU = document.getElementById("BU");
+var BUModal = document.getElementById("BU-descript");
+BU.onclick = function() {
+	BUModal.style.display = "block";
+}
+closeBU.onclick = function() {
+	BUModal.style.display = "none";
+}
+window.onclick = function(event) {
+  if (event.target == BUModal) {
+    BUModal.style.display = "none";
+  }
+}
+
+// Spark
+var closeSpark = document.getElementsByClassName("closeSpark")[0];
+var Spark = document.getElementById("Spark");
+var SparkModal = document.getElementById("Spark-descript");
+Spark.onclick = function() {
+	SparkModal.style.display = "block";
+}
+closeSpark.onclick = function() {
+	SparkModal.style.display = "none";
+}
+window.onclick = function(event) {
+  if (event.target == SparkModal) {
+    SparkModal.style.display = "none";
+  }
+}
