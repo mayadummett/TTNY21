@@ -7775,7 +7775,7 @@ textarea.form-control-lg {
 
 .text-black-paragraph {
   --bs-text-opacity: 1;
-  color: ##000000 !important;
+  color: #000000 !important;
   font-size: 20px;
 }
 
@@ -11323,7 +11323,19 @@ body {
 }
 
 .carousel-item {
-  height: 400px;
+  height: 700px;
+}
+
+.carousel-byte {
+  height: 40%;
+}
+
+.carousel-text {
+  font-size: 80%;
+}
+
+.infrastructure {
+  font-size: 75%;
 }
 
 .involved-section {
@@ -11487,13 +11499,21 @@ hr.divider-light {
   #mainNav.navbar-shrink .navbar-nav .nav-item .nav-link:hover {
     color: #f4623a;
   }
+
+  .carousel-item {
+    height: 500px;
+  }
+
+  .carousel-text {
+    font-size: 70%;
+  }
 }
 
-/* can someone add the background image here? */
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
-  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("");
+  background-image: url("../assets/img/techTogetherNewYorkBackground.png");
+  /* background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url(""); */
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -11557,10 +11577,6 @@ header.masthead h1, header.masthead .h1 {
 #portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption, #portfolio .container-sm .portfolio-box:hover .portfolio-box-caption, #portfolio .container-md .portfolio-box:hover .portfolio-box-caption, #portfolio .container-lg .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xl .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xxl .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
 }
-
-
-
-
 
 /***** SCHEDULE *****/
 .platform {
