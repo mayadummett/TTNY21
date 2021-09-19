@@ -318,9 +318,11 @@
                     <button class="btn sched-btn" style="border-radius: 0px;" id="2">SATURDAY</button>
                     <button class="btn sched-btn" style="border-radius: 0px 4px 4px 0px;" id="3">SUNDAY</button>
                 </div>
-                <div id="day" style="margin: 10px;">Refresh the page for the most updated schedule.
-                    <br>Please note that all times are in Eastern Time (GMT-4).<br>
-                    Click on an day to see the day's schedule.
+                <!-- <div id="day" style="margin: 10px;"> -->
+                <div style="margin: 10px;"></div>
+                    Refresh the page for the most updated schedule.
+                    <br>Please note that all times are in Eastern Time (GMT-4).
+                    <br>Click on an day to see the day's schedule.
                 </div>
             </div>
         </div>
@@ -330,11 +332,62 @@
     <section class="page-section sponsorsbg text-black" id="sponsors" style="padding: 8rem 0;">
         <div class="container px-4 px-lg-5 text-center">
             <h2 class="mb-4">Sponsors</h2>
-            <img class="img-fluid logo-big" src="assets/img/logos/balsamiq-logo.png" alt="Balsamiq" />
-            <img class="img-fluid logo-big" src="assets/img/logos/bu-logo.png" alt="Boston University" />
-            <img class="img-fluid logo-big" src="assets/img/logos/C1-logo.png" alt="Capital One" />
-            <img class="img-fluid logo-big" src="assets/img/logos/Microsoft-logo_rgb_c-gray 1.png" alt="Microsoft" />
-            <img class="img-fluid" src="assets/img/logos/spark-logo.png" alt="Spark" />
+
+            <img alt="Balsamiq" src="assets/img/logos/balsamiq-logo.png" class="img-fluid logo-big" id="balsamiq" />
+            <div id="balsamiq-descript" class="modal">
+                <div class="modal-content">
+                    <div class="close closeBalsamiq">&times;</div>
+                    <div class="modal-body">
+                        <a href="https://bit.ly/tt-balsamiq"><h4>Balsamiq</h4></a>
+                        UX is an exciting, fast-growing, high-paying, impactful discipline. But where do you start? Start with Balsamiq! Balsamiq Wireframes is the perfect first UX design tool for anyone interested in getting into UX. It's by far the most approachable: you just drag, drop, and arrange controls on the page, and voila', you made your first User Interface! They even have online courses and articles to teach you all about UI design and wireframing. Balsamiq is free for classroom use, and very affordable for anyone else. Kick-start your UX career at balsamiq.com
+                    </div>
+                </div>
+            </div>
+        
+            <img alt="Capital One" src="assets/img/logos/C1-logo.png" class="img-fluid logo-big" id="CapitalOne" />
+            <div id="CapitalOne-descript" class="modal">
+                <div class="modal-content">
+                    <div class="close closeCapitalOne">&times;</div>
+                    <div class="modal-body">
+                        <a href="https://bit.ly/tt-capital-one"><h4>Capital One</h4></a>
+                        At Capital One, we’re advancing our culture of belonging—where everyone feels seen, heard, valued and free to be their authentic selves.
+                    </div>
+                </div>
+            </div>
+
+            <img alt="Microsoft" src="assets/img/logos/Microsoft-logo_rgb_c-gray 1.png" class="img-fluid logo-big" id="Microsoft" />
+            <div id="Microsoft-descript" class="modal">
+                <div class="modal-content">
+                    <div class="close closeMicrosoft">&times;</div>
+                    <div class="modal-body">
+                        <a href="https://bit.ly/tt-microsoft-careers"><h4>Microsoft</h4></a>
+                        Microsoft enables digital transformation for the era of an intelligent cloud and an intelligent edge. Its mission is to empower every person and every organization on the planet to achieve more.
+                    </div>
+                </div>
+            </div>
+
+            <img alt="Boston University" src="assets/img/logos/bu-logo.png" class="img-fluid logo-big" id="BU" />
+            <div id="BU-descript" class="modal">
+                <div class="modal-content">
+                    <div class="close closeBU">&times;</div>
+                    <div class="modal-body">
+                        <a href="https://bit.ly/tt-bu-admissions"><h4>Boston University</h4></a>
+                        Boston University is a leading private research institution with two primary campuses in the heart of Boston and programs around the world.
+                    </div>
+                </div>
+            </div>
+
+            <img alt="Spark" src="assets/img/logos/spark-logo.png" class="img-fluid logo-med" id="Spark" />
+            <div id="Spark-descript" class="modal">
+                <div class="modal-content">
+                    <div class="close closeSpark">&times;</div>
+                    <div class="modal-body">
+                        <a href="https://bit.ly/tt-spark"><h4>Spark</h4></a>
+                        Housed in the Faculty of Computing & Data Sciences, Spark! is the technology incubator and experiential learning lab for student led computational and data driven projects at Boston University.
+                    </div>
+                </div>
+            </div>
+
             <br>
         </div>
     </section>
@@ -570,7 +623,7 @@
     <!-- Core theme JS-->
     <script src="js/scripts.js"></script>
     <script src="js/schedule.js"></script>
-
+    <script src="js/sponsors.js"></script>
     <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
     <!-- * *                               SB Forms JS                               * *-->
     <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
