@@ -76,6 +76,12 @@
   }
 }
 
+p {
+  font-family: Roboto;
+  font-size: 24px;
+  }
+
+
 body {
   margin: 0;
   font-family: var(--bs-body-font-family);
@@ -3030,13 +3036,13 @@ textarea.form-control-lg {
 
 .btn-primary {
   color: #fff;
-  background-color: #808EF4;
-  border-color: #808EF4;
+  background-color: #222A68;
+  border-color: #222A68;
 }
 .btn-primary:hover {
   color: #fff;
-  background-color: #808EF4;
-  border-color: #808EF4;
+  background-color: #333F9B;
+  border-color: #333F9B;
 }
 .btn-check:focus + .btn-primary, .btn-primary:focus {
   color: #fff;
@@ -7759,6 +7765,14 @@ textarea.form-control-lg {
   /* color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important; */
 }
 
+.text-navy-title {
+  --bs-text-opacity: 1;
+  color: #181D46 !important;
+  font-family: Barlow;
+  font-weight: 900;
+  /* color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important; */
+}
+
 .text-white-mission {
   --bs-text-opacity: 1;
   color: #FFF !important;
@@ -7773,12 +7787,24 @@ textarea.form-control-lg {
   font-size: 30px;
 }
 
+.text-white-title {
+  --bs-text-opacity: 1;
+  color: white !important;
+  font-family: Barlow;
+  font-weight: 900;
+}
+
 .text-black-paragraph {
   --bs-text-opacity: 1;
   color: #000000 !important;
   font-size: 20px;
 }
 
+.text-navy-paragraph {
+  --bs-text-opacity: 1;
+  color: #181D46 !important;
+  font-size: 20px;
+}
 .text-body {
   --bs-text-opacity: 1;
   color: rgba(var(--bs-body-rgb), var(--bs-text-opacity)) !important;
@@ -11440,7 +11466,7 @@ hr.divider-light {
 }
 
 #mainNav {
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0.5rem 1rem #45B8CF;
   background-color: #fff;
   transition: background-color 0.2s ease;
 }
@@ -11471,14 +11497,14 @@ hr.divider-light {
     color: rgba(255, 255, 255, 0.7);
   }
   #mainNav .navbar-brand:hover {
-    color: #fff;
+    color: #45B8CF;
   }
   #mainNav .navbar-nav .nav-item .nav-link {
     color: rgba(255, 255, 255, 0.7);
     padding: 0 1rem;
   }
   #mainNav .navbar-nav .nav-item .nav-link:hover {
-    color: #fff;
+    color: #45B8CF;
   }
   #mainNav .navbar-nav .nav-item:last-child .nav-link {
     padding-right: 0;
@@ -11684,7 +11710,7 @@ header.masthead h1, header.masthead .h1 {
 }
 .logo-big{
   margin: 10px;
-  width: 200px;
+  width: 250px;
 }
 .logo-med{
   margin: 10px;
