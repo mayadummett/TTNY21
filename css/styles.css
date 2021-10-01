@@ -10754,6 +10754,28 @@ header.masthead h1, header.masthead .h1 {
   width: 80%;
 }
 
+.volunteers-ppt {
+  height: 40vh; 
+  width: 90vw;
+}
+
+
+@media (min-width: 576px) {
+  .volunteers-ppt {
+    height: 60vh; 
+    width: 70vw;
+  }
+  
+}
+
+@media (min-width: 768px) {
+  .volunteers-ppt {
+    height: 80vh; 
+    width: 70vw;
+  }
+  
+}
+
 /* The Close Button */
 
 .close {
