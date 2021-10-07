@@ -9,6 +9,48 @@
     gtag('js', new Date());
 
     gtag('config', 'UA-150897843-1');
+
+    function playCamera() {
+        document.getElementById("camera-click").play()
+    }
+
+    // var ratHere = "yes"
+    
+    // function pizzarat() {
+    //     document.getElementById('rat').classList.add('rat-anim')
+    //     ratHere = "no"
+    // }
+    
+    // if (ratHere == "no") {
+    //     document.getElementById('rat').classList.remove('rat-anim')
+    //     ratHere="yes"
+    // }
+
+    // const pizzarat = 
+    
+        
+    
+    function clickPizza() {
+        document.getElementById("rat").classList.remove("rat-anim");
+        void document.getElementById("rat").offsetWidth
+        document.getElementById("rat").classList.add("rat-anim")
+    }
+    
+    
+    var pedState = "stop"
+
+    function togglePed() {
+        var pedByte = document.querySelector(".pedestrian")
+        if (pedState == "stop") {
+            pedByte.src = "assets/img/eastereggs/PedestrianA.png"
+            pedState = "go"
+        } else {
+            pedByte.src = "assets/img/eastereggs/PedestrianB.png"
+            pedState = "stop"
+        }
+    }
+
+    setInterval(togglePed, 5000)
 </script>
 
 <head>
@@ -51,6 +93,7 @@
                     <!-- <li class="nav-item"><a class="nav-link" href="#schedule">Schedule</a></li> -->
                     <li class="nav-item"><a class="nav-link" href="#sponsors">Sponsors</a></li>
                     <li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#volunteers">Volunteers</a></li>
                 </ul>
             </div>
         </div>
@@ -98,6 +141,10 @@
                 </div>
             </div>
         </div>
+        <div class="pizza-rat">
+            <img src="assets/img/eastereggs/Pizza.png" alt="pizza" id="pizza" class="pizza" onclick="clickPizza()" title="What's underneath the pizza?"/>
+            <img src="assets/img/eastereggs/Rat.png" alt="rat" id="rat" class="rat"/>
+        </div>
     </section>
 
     <!-- Mission-->
@@ -132,6 +179,7 @@
                 <!-- </div> -->
             </div>
         </div>
+        <img src="assets/img/eastereggs/PedestrianA.png" alt="Byte Pedestrian" class="pedestrian" />
     </section>
 
     <!-- Challenges-->
@@ -288,6 +336,7 @@
                 </div>
             </div>
         </div>
+        <a href="https://artsandculture.google.com/partner/moma-the-museum-of-modern-art" target="_blank"><img src="assets/img/eastereggs/Painting.png" alt="Byte Painting" class="painting-egg" title="MOMA Virtual Tour" /></a>
     </section>
 
     <!-- Schedule -->
@@ -405,6 +454,8 @@
 
             <br>
         </div>
+        <img src="assets/img/eastereggs/Tourist.png" alt="Tourist Byte" class="tourist-byte" title="Say Cheese!" onclick="playCamera()"/>
+        <audio id="camera-click" src="assets/img/eastereggs/cameraClick.wav"></audio>
     </section>
 
     <!-- FAQ -->
@@ -568,6 +619,7 @@
             frameborder="0" class="volunteers-ppt" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
             <!-- width="960" height="569" -->
         </div>
+        <a href="https://www.nps.gov/stli/learn/photosmultimedia/virtualtour.htm" target="_blank"><img src="assets/img/eastereggs/StatueofLiberty.png" alt="Byte of Liberty" class="byte-liberty" title="Statue of Liberty Virtual Tour"/></a>
     </section>
 
     <!-- Footer-->
