@@ -10392,6 +10392,19 @@ body {
   bottom: -100px;
 }
 
+.painting-egg {
+  display: none;
+}
+
+@media (min-width: 576px) {
+  .painting-egg {
+    display: block;
+    position: absolute;
+    height: 100px;
+    left: 20px;
+  }
+}
+
 /* .page-section {
   padding: 8rem 0;
   background-color: #ABE2F1;
@@ -10774,6 +10787,101 @@ header.masthead h1, header.masthead .h1 {
     width: 70vw;
   }
   
+}
+
+/* ------EASTER EGGS --------- */
+
+/* Pizza Rat Easter Egg */
+.pizza-rat {
+  position: absolute;
+}
+
+.rat {
+  position: absolute;
+  height: 100px;
+  top: 20px;
+}
+
+.pizza {
+  position: absolute;
+  height: 80px;
+  z-index: 200;
+  top:30px
+}
+
+.pizza:hover {
+  cursor: pointer;
+}
+
+.rat-anim {
+  -webkit-animation: 3s linear 1 rat;
+  animation: 3s linear 1 rat;
+}
+
+@-webkit-keyframes rat {
+  0% {  
+    left: 40px;
+  }
+  50% {
+    z-index: 400;
+    left: 200px;
+  }
+  100% {
+    left: 40px;
+  }
+}
+
+/* Pedestrian Byte */
+
+.pedestrian {
+  display: none;
+}
+
+
+@media (min-width: 576px) {
+  .pedestrian {
+    display: block;
+    position: absolute;
+    height: 120px;
+    /* top: 0; */
+    right: 20px;
+    z-index: 200;
+  }
+}
+
+/* Byte of Liberty */
+
+.byte-liberty {
+  display: none;
+}
+
+@media (min-width: 576px) {
+  .byte-liberty {
+    display: block;
+    position: absolute;
+    height: 100px;
+    left: 20px;
+  }
+}
+
+
+/* Byte Tourist */
+
+.tourist-byte {
+  display: none;
+}
+
+@media (min-width: 576px) {
+  .tourist-byte {
+    display: block;
+    position: absolute;
+    height: 150px;
+    right: 20px;
+  }
+
+  .tourist-byte:hover {
+    cursor: pointer;
+  }
 }
 
 /* The Close Button */
