@@ -90,7 +90,7 @@
                 <ul class="navbar-nav ms-auto my-2 my-lg-0">
                     <li class="nav-item"><a class="nav-link" href="#challenges">Challenges</a></li>
                     <li class="nav-item"><a class="nav-link" href="#get-involved">Get Involved</a></li>
-                    <!-- <li class="nav-item"><a class="nav-link" href="#schedule">Schedule</a></li> -->
+                    <li class="nav-item"><a class="nav-link" href="#schedule">Schedule</a></li>
                     <li class="nav-item"><a class="nav-link" href="#sponsors">Sponsors</a></li>
                     <li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
                     <li class="nav-item"><a class="nav-link" href="#volunteers">Volunteers</a></li>
@@ -116,6 +116,22 @@
                         href="https://www.eventbrite.com/e/techtogether-new-york-2021-tickets-164054801327?ltclid=a2e9dfde-e728-4ae4-8c9a-a8dce8a38c57
                         https://www.eventbrite.com/e/techtogether-new-york-2021-tickets-164054801327?ltclid=a2e9dfde-e728-4ae4-8c9a-a8dce8a38c57">Register Now (it's
                         free)</a>
+                    
+
+                    <div class="row gx-1 button-group">
+                        <div class="d-flex flex-row flex-wrap align-items-center justify-content-center">
+                            <a class="btn btn-primary border-0 rounded-pill p-3 shadow m-3" target="_blank"
+                            href="">View Challenges
+                            </a>
+                            <a class="btn btn-primary border-0 rounded-pill p-3 shadow m-3" target="_blank"
+                                href="">Submit Project
+                            </a>
+                            <a class="btn btn-primary border-0 rounded-pill p-3 shadow m-3" target="_blank"
+                                href="https://drive.google.com/drive/folders/1xRF5AtSpb28VFk1CrUfjdLVwFU0_PGMc">Workshop Recordings
+                            </a>
+                        </div>
+                    </div> 
+
                 </div>
             </div>
         </div>
@@ -340,7 +356,7 @@
     </section>
 
     <!-- Schedule -->
-    <!--     <section class="page-section" id="schedule" style="background: #F4EFE5; padding: 8rem 0;">
+    <section class="page-section" id="schedule" style="background: #F4EFE5; padding: 8rem 0;">
         <div class='rect1'></div>
         <div class='rect2'></div>
         <h2 class="text-center mt-0 fs-1">Schedule</h2>
@@ -348,19 +364,24 @@
         <div class="container-fluid p-0 text-center">
             <div id="scheduleBoard">
                 <div class="sched-nav">
-                    <button class="btn sched-btn" style="border-radius: 4px 0px 0px 4px;" id="1">FRIDAY</button>
-                    <button class="btn sched-btn" style="border-radius: 0px;" id="2">SATURDAY</button>
-                    <button class="btn sched-btn" style="border-radius: 0px 4px 4px 0px;" id="3">SUNDAY</button>
+
+                        <button class="btn sched-btn" style="border-radius: 4px 0px 0px 4px;" id="1">FRIDAY</button>
+                        <button class="btn sched-btn" style="border-radius: 0px;" id="2">SATURDAY</button>
+                        <button class="btn sched-btn" style="border-radius: 0px 4px 4px 0px;" id="3">SUNDAY</button>
+
+                        <a href="" target="_blank" id="add-to-calendar-icon-container">
+                            <img src="assets/img/calendar.svg" alt="Add to Calendar" title="Add to Calendar" style="width: 5%; float: right;"/></a>
+
                 </div>
-                <div style="margin: 10px;"></div>
+                <div id="day" style="margin: 10px;">
                     Refresh the page for the most updated schedule.
                     <br>Please note that all times are in Eastern Time (GMT-4).
                     <br>Click on an day to see the day's schedule.
-                </div>
+                </div> 
             </div>
         </div>
         <img src="assets/img/schedule1.png" class="img platform img-fluid">
-    </section> -->
+    </section> 
 
     <!-- Sponsors -->
     <section class="page-section sponsorsbg text-black" id="sponsors">
@@ -448,6 +469,23 @@
                         </div>
                     </div>
                 </div>
+
+                <img alt="Travelers" src="assets/img/logos/Travelers-logo_171x59.jpg" class="img-fluid logo-big" id="Travelers" />
+                <div id="Travelers-descript" class="modal">
+                    <div class="modal-content">
+                        <div class="close closeTravelers">&times;</div>
+                        <div class="modal-body">
+                            <a href="https://www.instagram.com/travelerscareers/?hl=en">
+                                <h4>Travelers</h4>
+                            </a>
+                            Innovative thinking, creative problem-solving, and a determination to challenge the status-quo, these are some of the defining qualities for participants of our Technology Leadership Development Program (TLDP). This two to three-year experiential program is designed to grow and develop your technology and self-leadership skills. Each experience will consist of a combination of hands-on opportunities, access to a robust multi-tiered curriculum, and a mentoring program to prepare you for a dynamic career. You will have the opportunity to explore multiple technologies while learning from different leaders within Travelers.	
+                        </div>
+                    </div>
+                </div>
+
+                <img alt="Hackathon Mentors" src="assets/img/logos/HackathonMentors_RGB.png" class="img-fluid logo-big" id="HackathonMentors" />
+                
+
             </div>
 
 
@@ -648,7 +686,7 @@
     <!-- Core theme JS-->
     <script src="js/scripts.js"></script>
     <script src="js/schedule.js"></script>
-    <!-- <script src="js/sponsors.js"></script> -->
+    <script src="js/sponsors.js"></script>
     <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
     <!-- * *                               SB Forms JS                               * *-->
     <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
