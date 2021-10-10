@@ -13,7 +13,7 @@ const day1 = [
 		"Title": "Team Formation #1",
 		"Host": "TTNY team",
 		"Description": "",
-		"Link": "https://princeton.zoom.us/my/shannonheh"
+
 	},
 	{
 		
@@ -31,7 +31,7 @@ const day1 = [
 		"Title": "Team Formation #2",
 		"Host": "TTNY team",
 		"Description": "",
-		"Link": "https://princeton.zoom.us/my/shannonheh"
+
 	},
 	{
 		"Time": "6:00 - 7:00 PM",
@@ -39,7 +39,7 @@ const day1 = [
 		"Title": "Beginners Guide to Hackathons",
 		"Host": "Zane Hasnain",
 		"Description": "",
-		"Link": "https://mtholyoke.zoom.us/j/8476116838"
+
 	},
 	{
 		"Time": "7:00 - 8:00 PM",
@@ -47,7 +47,7 @@ const day1 = [
 		"Title": "Intro to ML/AI",
 		"Host": "Hana Memon",
 		"Description": "",
-		"Link": "https://virginiatech.zoom.us/u/kbfc11fCJ5"
+		
 	},
 	{
 		"Time": "8:00 - 8:30 PM",
@@ -55,7 +55,7 @@ const day1 = [
 		"Title": "How to Use the Cloud in Your Hackathon Project  <br> Presented by Microsoft",
 		"Host": "Fiona",
 		"Description": "",
-		"Link": "https://bostonu.zoom.us/j/7834151581"
+
 	},
 	{
 		"Time": "8:00 - 9:00 PM",
@@ -63,7 +63,7 @@ const day1 = [
 		"Title": "Intro to Android App Dev",
 		"Host": "Jayleen Li",
 		"Description": "",
-		"Link": "https://princeton.zoom.us/my/shannonheh"
+		
 	},
 	{
 		"Time": "9:00 - 10:00 PM",
@@ -71,7 +71,7 @@ const day1 = [
 		"Title": "Intro to GitHub",
 		"Host": "May Márquez",
 		"Description": "",
-		"Link": "https://bostonu.zoom.us/j/7834151581"
+	
 	},
 	{
 		"Time": "10:00 - 11:00 PM",
@@ -79,7 +79,7 @@ const day1 = [
 		"Title": "Intro to Web Dev",
 		"Host": "Gabriella Miesner",
 		"Description": "",
-		"Link": "https://princeton.zoom.us/my/shannonheh"
+		
 	},
 	{
 		"Time": "11:00 - 12:00 AM",
@@ -87,7 +87,7 @@ const day1 = [
 		"Title": "Intro to React",
 		"Host": "Elisa Truong",
 		"Description": "",
-		"Link": "https://bostonu.zoom.us/j/7834151581"
+		
 	},
 ]
 
@@ -98,7 +98,7 @@ const day2 = [
 		"Title": "Jackbox Party Games",
 		"Host": "Cindy Mata",
 		"Description": "",
-		"Link": "https://nyu.zoom.us/my/cindy.mata"
+		
 	},
 	{
 		"Time": "8:00 - 9:00 AM",
@@ -106,7 +106,7 @@ const day2 = [
 		"Title": "Building backend web application with Node.js",
 		"Host": "Ming Lei",
 		"Description": "",
-		"Link": "https://princeton.zoom.us/my/shannonheh"
+	
 	},
 	{
 		"Time": "9:00 - 10:00 AM",
@@ -114,7 +114,7 @@ const day2 = [
 		"Title": "Intro to Automation With Python",
 		"Host": "Melissa Lin",
 		"Description": "",
-		"Link": "https://princeton.zoom.us/my/shannonheh"
+		
 	},
 	{
 		"Time": "10:00 - 11:00 AM",
@@ -122,7 +122,7 @@ const day2 = [
 		"Title": "Introduction to Third Party APIs",
 		"Host": "Sreeya Sai",
 		"Description": "",
-		"Link": "https://bostonu.zoom.us/j/7834151581"
+		
 	},
 	{
 		
@@ -131,7 +131,7 @@ const day2 = [
 		"Title": "Team Formation #3",
 		"Host": "TTNY team",
 		"Description": "",
-		"Link": "https://princeton.zoom.us/my/shannonheh"
+		
 	},
 	{
 		"Time": "11:30 - 12:30 PM",
@@ -139,7 +139,7 @@ const day2 = [
 		"Title": "Intro to Product Management",
 		"Host": "Priyanshi Gawarvala",
 		"Description": "",
-		"Link": "https://mtholyoke.zoom.us/j/8476116838"
+	
 	},
 	{
 		"Time": "12:30 - 1:30 PM",
@@ -154,7 +154,6 @@ const day2 = [
 		"Title": "Keynote  <br> Presented by Microsoft",
 		"Host": "Grace Macjones",
 		"Description": "",
-		"Link": "https://virginiatech.zoom.us/u/kbfc11fCJ5"
 	},
 	{
 		"Time": "1:30 - 2:30 PM",
@@ -162,7 +161,6 @@ const day2 = [
 		"Title": "Introduction to SQL",
 		"Host": "Rim Ataallah",
 		"Description": "",
-		"Link": "https://bostonu.zoom.us/j/7834151581"
 	},
 	{
 		"Time": "2:30 - 3:30 PM",
@@ -170,7 +168,6 @@ const day2 = [
 		"Title": "Introduction to Rails",
 		"Host": "Mario Merendino",
 		"Description": "",
-		"Link": "https://princeton.zoom.us/my/shannonheh"
 	},
 	{
 		"Time": "3:30 - 4:30 PM",
@@ -178,7 +175,6 @@ const day2 = [
 		"Title": "Introduction to UI & UX Design",
 		"Host": "Kala Campbell",
 		"Description": "",
-		"Link": "https://bostonu.zoom.us/j/7834151581"
 	},
 	{
 		"Time": "4:30 - 5:30 PM",
@@ -186,7 +182,6 @@ const day2 = [
 		"Title": "NYC Word Game",
 		"Host": "TTNY team",
 		"Description": "",
-		"Link": "https://mtholyoke.zoom.us/j/8476116838"
 	},
 	{
 		"Time": "5:30 - 6:30 PM",
@@ -194,7 +189,6 @@ const day2 = [
 		"Title": "NYC Trivia",
 		"Host": "TTNY team",
 		"Description": "",
-		"Link": "https://princeton.zoom.us/my/shannonheh"
 	},
 	{
 		"Time": "6:30 - 7:30 PM",
@@ -209,7 +203,6 @@ const day2 = [
 		"Title": "How to Deploy Your Hackathon Project on the Cloud  <br> Presented by Microsoft",
 		"Host": "Christopher Harrison",
 		"Description": "",
-		"Link": "https://virginiatech.zoom.us/u/kbfc11fCJ5"
 	},
 	{
 		"Time": "8:30 - 9:30 PM",
@@ -217,7 +210,6 @@ const day2 = [
 		"Title": "A Hitchhiker's Guide to Impact",
 		"Host": "Megan Cui & Mingjie Jiang",
 		"Description": "",
-		"Link": "https://princeton.zoom.us/my/shannonheh"
 	},
 	{
 		"Time": "9:30 - 10:30 PM",
@@ -225,7 +217,6 @@ const day2 = [
 		"Title": "Resume Tips for Tech",
 		"Host": "Jennifer Cosenza",
 		"Description": "",
-		"Link": "https://bostonu.zoom.us/j/7834151581"
 	},
 	{
 		"Time": "10:30 - 11:30 PM",
@@ -233,7 +224,6 @@ const day2 = [
 		"Title": "Interview Tips for Tech",
 		"Host": "Jennifer Cosenza",
 		"Description": "",
-		"Link": "https://bostonu.zoom.us/j/7834151581"
 	},
 	{
 		"Time": "11:30 - 12:00 AM",
@@ -241,7 +231,6 @@ const day2 = [
 		"Title": "Escape Room",
 		"Host": "TTNY team",
 		"Description": "",
-		"Link": "https://princeton.zoom.us/my/shannonheh"
 	},
 ]
 
@@ -260,7 +249,6 @@ const day3 = [
 		"Title": "Introduction to Software Testing",
 		"Host": "Rim Ataallah",
 		"Description": "",
-		"Link": "https://bostonu.zoom.us/j/7834151581"
 	},
 	{
 		"Time": "10:00 - 11:00 AM",
@@ -268,7 +256,6 @@ const day3 = [
 		"Title": "Introduction to Deep Learning",
 		"Host": "Kapil Yadav",
 		"Description": "",
-		"Link": "https://princeton.zoom.us/my/shannonheh"
 	},
 	{
 		"Time": "12:00 - 12:30 PM",
@@ -283,7 +270,6 @@ const day3 = [
 		"Title": "Judging",
 		"Host": "TTNY team",
 		"Description": "",
-		"Link": "https://princeton.zoom.us/my/shannonheh"
 	},
 	{
 		"Time": "3:00 - 3:30 PM",
