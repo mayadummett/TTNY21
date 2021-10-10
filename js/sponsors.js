@@ -79,3 +79,19 @@ window.onclick = function(event) {
     SparkModal.style.display = "none";
   }
 }
+
+// Travelers
+var closeTravelers = document.getElementsByClassName("closeTravelers")[0];
+var Travelers = document.getElementById("Travelers");
+var TravelersModal = document.getElementById("Travelers-descript");
+Travelers.onclick = function() {
+	TravelersModal.style.display = "block";
+}
+closeTravelers.onclick = function() {
+	TravelersModal.style.display = "none";
+}
+window.onclick = function(event) {
+  if (event.target == TravelersModal) {
+    TravelersModal.style.display = "none";
+  }
+}
