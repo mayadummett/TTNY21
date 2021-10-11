@@ -95,3 +95,19 @@ window.onclick = function(event) {
     TravelersModal.style.display = "none";
   }
 }
+
+// Robinhood
+var closeRobinhood = document.getElementsByClassName("closeRobinhood")[0];
+var Robinhood = document.getElementById("Robinhood");
+var RobinhoodModal = document.getElementById("Robinhood-descript");
+Robinhood.onclick = function() {
+	RobinhoodModal.style.display = "block";
+}
+closeRobinhood.onclick = function() {
+	RobinhoodModal.style.display = "none";
+}
+window.onclick = function(event) {
+  if (event.target == RobinhoodModal) {
+    RobinhoodModal.style.display = "none";
+  }
+}
