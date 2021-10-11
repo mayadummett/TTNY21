@@ -284,6 +284,14 @@ document.getElementById('1').onclick = () => {fillData(day1)}
 document.getElementById('2').onclick = () => {fillData(day2)}
 document.getElementById('3').onclick = () => {fillData(day3)}
 
+document.getElementById('day').innerHTML = `
+        ${day1.map(sched_template).join('')}
+        <h5 style="font-size: 0.9rem;">Check back soon for updates.
+			<br>Please note that all times are in Eastern Time (GMT-4).
+			<br>Click on an day to see the day's schedule.
+		</h5>
+    `
+
 function fillData(data){
     document.getElementById('day').innerHTML = `
         ${data.map(sched_template).join('')}

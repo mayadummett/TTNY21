@@ -10612,11 +10612,10 @@ header.masthead h1, header.masthead .h1 {
 
 /***** SCHEDULE *****/
 #add-to-calendar-icon-container {
-  background-color: #17b7d3;
-  filter: invert(1);
+  filter: invert(0);
 }
 #add-to-calendar-icon-container:hover {
-  filter: invert(0);
+  filter: invert(1);
   cursor: pointer;
 }
 
