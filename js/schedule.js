@@ -236,14 +236,6 @@ const day2 = [
 
 const day3 = [
 	{
-		"Time": "12:00 - 1:00 AM",
-		"Category": "Activity",
-		"Title": "Movie Night",
-		"Host": "TTNY team",
-		"Description": "",
-		"Link": ""
-	},
-	{
 		"Time": "9:00 - 10:00 AM",
 		"Category": "Workshop",
 		"Title": "Introduction to Software Testing",
